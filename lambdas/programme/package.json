@@ -1,0 +1,11 @@
+{
+  "name": "programme",
+  "version": "1.0.0",
+  "description": "List of EMF Films in 2022",
+  "main": "programme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PJ Evans <pj@mrpjevans.com>",
+  "license": "MIT"
+}
