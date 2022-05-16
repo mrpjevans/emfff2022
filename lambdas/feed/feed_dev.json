@@ -1,0 +1,284 @@
+{
+    "schemaVersion": 1,
+    "films": [
+        {
+            "title": "quam",
+            "director": "Nettle Writtle",
+            "year": 1997,
+            "certificate": "18",
+            "poster": "http://dummyimage.com/216x100.png/5fa2dd/ffffff",
+            "image": "http://dummyimage.com/248x100.png/5fa2dd/ffffff",
+            "starring": [
+                "Aileen Mattusevich",
+                "Deane Borrie",
+                "Susan Algie",
+                "Tamqrah Willans",
+                "Annabell Sambidge"
+            ],
+            "precis": {
+                "full": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+                "oneLine": "Nam tristique tortor eu pede."
+            },
+            "tagline": "engage B2C initiatives",
+            "showing": {
+                "timestamp": 1654189200000,
+                "text": "02 June 18:00",
+                "day": "Thursday"
+            },
+            "imdb": "https://weather.com/rhoncus/aliquam/lacus/morbi/quis.aspx",
+            "trailer": "http://scribd.com/mattis/pulvinar/nulla/pede/ullamcorper/augue/a.xml",
+            "runtime": {
+                "minutes": 102,
+                "text": "1h 23"
+            }
+        },
+        {
+            "title": "vitae",
+            "director": "Marsh Baughen",
+            "year": 2005,
+            "certificate": "15",
+            "poster": "http://dummyimage.com/103x100.png/cc0000/ffffff",
+            "image": "http://dummyimage.com/217x100.png/dddddd/000000",
+            "starring": [
+                "Emily O'Hanlon",
+                "Madelina Crean",
+                "Ana Martinovsky",
+                "Beatriz Kirtland",
+                "Vidovik Stelljes"
+            ],
+            "precis": {
+                "full": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+                "oneLine": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio."
+            },
+            "tagline": "e-enable extensible deliverables",
+            "showing": {
+                "timestamp": 1654200000000,
+                "text": "02 June 21:00",
+                "day": "Thursday"
+            },
+            "imdb": "http://istockphoto.com/dui/proin.jpg",
+            "trailer": "http://exblog.jp/feugiat/non.html",
+            "runtime": {
+                "minutes": 122,
+                "text": "1h 19"
+            }
+        },
+        {
+            "title": "elit",
+            "director": "Jessie Mille",
+            "year": 1999,
+            "certificate": "12",
+            "poster": "http://dummyimage.com/104x100.png/cc0000/ffffff",
+            "image": "http://dummyimage.com/227x100.png/dddddd/000000",
+            "starring": [
+                "Merrile Veevers",
+                "Goldarina Doodney",
+                "Lenka Syseland",
+                "Tresa Averies",
+                "James O'Shea"
+            ],
+            "precis": {
+                "full": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+                "oneLine": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+            },
+            "tagline": "architect dot-com networks",
+            "showing": {
+                "timestamp": 1654275600000,
+                "text": "03 June 18:00",
+                "day": "Friday"
+            },
+            "imdb": "https://webeden.co.uk/libero/nam/dui.json",
+            "trailer": "http://joomla.org/integer/non/velit/donec/diam.html",
+            "runtime": {
+                "minutes": 112,
+                "text": "2h 34"
+            }
+        },
+        {
+            "title": "dictumst",
+            "director": "Brnaba Haken",
+            "year": 2007,
+            "certificate": "18",
+            "poster": "http://dummyimage.com/211x100.png/ff4444/ffffff",
+            "image": "http://dummyimage.com/118x100.png/dddddd/000000",
+            "starring": [
+                "Butch Bacon",
+                "Pepillo Drepp",
+                "Cathee Marten",
+                "Dolores O'Gormally",
+                "Moselle McAllester"
+            ],
+            "precis": {
+                "full": "Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
+                "oneLine": "Suspendisse ornare consequat lectus."
+            },
+            "tagline": "empower collaborative functionalities",
+            "showing": {
+                "timestamp": 1654286400000,
+                "text": "03 June 21:00",
+                "day": "Friday"
+            },
+            "imdb": "https://wsj.com/orci/pede.json",
+            "trailer": "https://cpanel.net/nec.jpg",
+            "runtime": {
+                "minutes": 157,
+                "text": "5h 18"
+            }
+        },
+        {
+            "title": "nulla",
+            "director": "Ceil Chatenet",
+            "year": 2009,
+            "certificate": "18",
+            "poster": "http://dummyimage.com/215x100.png/dddddd/000000",
+            "image": "http://dummyimage.com/160x100.png/5fa2dd/ffffff",
+            "starring": [
+                "Kyrstin Larrosa",
+                "Berti Bromidge",
+                "Eduino Mendus",
+                "Alikee Tomsa",
+                "Naomi Schole"
+            ],
+            "precis": {
+                "full": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                "oneLine": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+            },
+            "tagline": "utilize rich deliverables",
+            "showing": {
+                "timestamp": 1654362000000,
+                "text": "04 June 18:00",
+                "day": "Saturday"
+            },
+            "imdb": "https://zdnet.com/est/et/tempus/semper/est/quam/pharetra.aspx",
+            "trailer": "https://usa.gov/cubilia/curae/donec.jpg",
+            "runtime": {
+                "minutes": 153,
+                "text": "1h 07"
+            }
+        },
+        {
+            "title": "elementum",
+            "director": "Yank Rubinchik",
+            "year": 2002,
+            "certificate": "12",
+            "poster": "http://dummyimage.com/132x100.png/cc0000/ffffff",
+            "image": "http://dummyimage.com/202x100.png/5fa2dd/ffffff",
+            "starring": [
+                "Megan Guesford",
+                "Emelyne Osbiston",
+                "Domenic Piscopiello",
+                "Jermayne Golling",
+                "Silvia Binnell"
+            ],
+            "precis": {
+                "full": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
+                "oneLine": "Nam tristique tortor eu pede."
+            },
+            "tagline": "exploit strategic markets",
+            "showing": {
+                "timestamp": 1654372800000,
+                "text": "04 June 21:00",
+                "day": "Saturday"
+            },
+            "imdb": "https://seesaa.net/nulla/tempus/vivamus/in.html",
+            "trailer": "http://howstuffworks.com/lacus/morbi/quis/tortor/id/nulla/ultrices.jpg",
+            "runtime": {
+                "minutes": 165,
+                "text": "1h 23"
+            }
+        },
+        {
+            "title": "quam",
+            "director": "Chet Lyes",
+            "year": 2009,
+            "certificate": "18",
+            "poster": "http://dummyimage.com/207x100.png/cc0000/ffffff",
+            "image": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+            "starring": [
+                "Raffarty Sollon",
+                "Rubia Worthington",
+                "Dyanne Rosander",
+                "Jethro Barta",
+                "Maximilian Smallwood"
+            ],
+            "precis": {
+                "full": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
+                "oneLine": "In eleifend quam a odio."
+            },
+            "tagline": "incubate B2B action-items",
+            "showing": {
+                "timestamp": 1654380000000,
+                "text": "04 June 23:00",
+                "day": "Saturday"
+            },
+            "imdb": "https://wufoo.com/in/magna/bibendum.json",
+            "trailer": "http://clickbank.net/amet/consectetuer/adipiscing/elit/proin/risus.json",
+            "runtime": {
+                "minutes": 69,
+                "text": "8h 23"
+            }
+        },
+        {
+            "title": "amet",
+            "director": "Val Lockier",
+            "year": 1992,
+            "certificate": "12",
+            "poster": "http://dummyimage.com/172x100.png/cc0000/ffffff",
+            "image": "http://dummyimage.com/213x100.png/ff4444/ffffff",
+            "starring": [
+                "Issie Forstall",
+                "Anne-corinne Eck",
+                "Shellysheldon Grainger",
+                "Gale Pettegre",
+                "Alexandre Mettetal"
+            ],
+            "precis": {
+                "full": "Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+                "oneLine": "Nulla facilisi."
+            },
+            "tagline": "engage world-class systems",
+            "showing": {
+                "timestamp": 1654448400000,
+                "text": "05 June 18:00",
+                "day": "Sunday"
+            },
+            "imdb": "http://statcounter.com/lacus.xml",
+            "trailer": "http://scribd.com/a/libero/nam/dui/proin/leo/odio.xml",
+            "runtime": {
+                "minutes": 79,
+                "text": "1h 59"
+            }
+        },
+        {
+            "title": "nulla",
+            "director": "Abbye Gunthorpe",
+            "year": 1989,
+            "certificate": "15",
+            "poster": "http://dummyimage.com/239x100.png/5fa2dd/ffffff",
+            "image": "http://dummyimage.com/172x100.png/5fa2dd/ffffff",
+            "starring": [
+                "Janelle Grimbleby",
+                "Cara Doblin",
+                "Sergent Twelve",
+                "Ruy Peto",
+                "Adorne Brason"
+            ],
+            "precis": {
+                "full": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+                "oneLine": "Aenean sit amet justo."
+            },
+            "tagline": "leverage value-added bandwidth",
+            "showing": {
+                "timestamp": 1654459200000,
+                "text": "05 June 21:00",
+                "day": "Sunday"
+            },
+            "imdb": "https://technorati.com/turpis/elementum/ligula.jpg",
+            "trailer": "https://tinypic.com/primis/in/faucibus/orci/luctus/et/ultrices.jsp",
+            "runtime": {
+                "minutes": 133,
+                "text": "2h 58"
+            }
+        }
+   ]
+}

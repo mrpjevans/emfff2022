@@ -7,6 +7,7 @@
             "year": "1995",
             "certificate": "12",
             "poster": "https://www.imdb.com/title/tt0113243/mediaviewer/rm3977202176/",
+            "image": "images/hackers.jpg",
             "starring": [
                 "Jonny Lee Miller",
                 "Angelina Jolie",
@@ -27,7 +28,7 @@
             },
             "tagline": "HACK THE PLANET!",
             "showing": {
-                "timestamp": "2022-06-02T23:50:00+01:00",
+                "timestamp": "2022-06-02T22:50:00+01:00",
                 "text": "4th June 23:50",
                 "day": "Saturday"
             },

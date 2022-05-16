@@ -1,8 +1,8 @@
 {
-  "name": "programme",
+  "name": "feed",
   "version": "1.0.0",
-  "description": "List of EMF Films in 2022",
-  "main": "programme.js",
+  "description": "Feed of EMF Films in 2022",
+  "main": "feed.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
