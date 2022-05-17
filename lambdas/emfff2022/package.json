@@ -1,8 +1,8 @@
 {
-  "name": "feed",
+  "name": "emf2022",
   "version": "1.0.0",
-  "description": "Feed of EMF Films in 2022",
-  "main": "feed.js",
+  "description": "Site handler for EMF Film Festival 2022",
+  "main": "schedule.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
