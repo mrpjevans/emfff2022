@@ -1,10 +1,13 @@
-import { Result } from "aws-cdk-lib/aws-stepfunctions";
 import { promises as fs } from "fs"
 import * as path from "path"
 
 interface Response {
   statusCode: number,
-  headers?: Object,
+  headers: {
+    "Access-Control-Allow-Origin": string,
+    "Access-Control-Allow-Credentials": Boolean,
+    "Content-type"?: string
+  },
   isBase64Encoded?: Boolean,
   body?: string | Buffer
 }
@@ -23,7 +26,12 @@ exports.handler = async function (event) {
 async function staticFile(filepath) {
 
   const response: Response = {
-    statusCode: 200
+    statusCode: 200,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": true,
+      "Content-type": "text/html"
+    },
   };
 
   try {
@@ -57,7 +65,7 @@ async function staticFile(filepath) {
       throw new Error("404");
     }
 
-    response.headers = { "Content-Type": mimeTypes[ext] };
+    response.headers["Content-type"] = mimeTypes[ext];
 
     if (['html', 'css', 'js'].includes(ext)) {
         response.body = await fs.readFile(fullpath, "utf-8");
@@ -102,7 +110,11 @@ async function jsonFeed(event) {
 
   return {
     statusCode: 200,
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": true,
+      "Content-type": "application/json"
+    },
     body: JSON.stringify(filteredJson)
   };
 }
