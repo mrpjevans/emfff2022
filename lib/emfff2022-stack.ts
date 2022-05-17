@@ -8,8 +8,6 @@ export class Emfff2022Stack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    const STAGE = process.env.STAGE || 'dev'
-
     // defines an AWS Lambda resource
     const feed = new lambda.Function(this, "feed", {
       runtime: lambda.Runtime.NODEJS_14_X,    // execution environment
@@ -18,10 +16,23 @@ export class Emfff2022Stack extends Stack {
     });
 
     // defines an API Gateway REST API resource backed by our "hello" function.
-    //const apigwDeployment = new apigw.LambdaRestApi(this, "feed-endpoint", {
-    //  handler: programme
-    //});
+    const apigwDevDeployment = new apigw.LambdaRestApi(this, "feed-endpoint", {
+      handler: feed,
+      deployOptions: {
+        stageName: "v1"
+      }
+    });
 
+    /*
+    const apigwV1Deployment = new apigw.LambdaRestApi(this, "feed-v1-endpoint", {
+      handler: feed,
+      deployOptions: {
+        stageName: "v1"
+      }
+    });
+    */
+
+    /*
     // IMPORTANT: Lambda grant invoke to APIGateway
     feed.grantInvoke(new ServicePrincipal('apigateway.amazonaws.com'));
 
@@ -38,6 +49,7 @@ export class Emfff2022Stack extends Stack {
       new apigw.Stage(this, `${item}_stage`, { deployment, stageName: item }));
 
     api.deploymentStage = prodStage
+    */
 
   }
 }
