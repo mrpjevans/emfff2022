@@ -1,5 +1,121 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        <h1>EMF Films 2022</h1>
-    </body>
+
+<head>
+    <title>Electromagetic FILM 2022</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+</head>
+
+<body>
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <div id="app">
+        <header>
+            <h1><a href="./">Electromagnetic <span class="title-film">FILM</span> 2022</a></h1>
+            <p class="strap">Movies and special events every night at Electromagnetic Field</p>
+        </header>
+        <div id="films">
+            <div class="film" v-for="film in films">
+                <img :src="echoAtt(film.image)" />
+                <div class="panel">
+                    <div class="datetime">{{ film.showing.day }} {{ film.showing.text }}</div>
+                    <h2>{{ film.title }}</h2>
+                    <div class="time-and-cert">
+                        {{ film.year }} - {{ film.runtime.text }}m - Certificate {{ film.certificate }}
+                    </div>
+                    <div class="filminfos">
+                        <div class="filminfo">
+                            <div class="property">
+                                Director
+                            </div>
+                            <div class="value">
+                                {{ film.director }}
+                            </div>
+                        </div>
+                        <div class="filminfo">
+                            <div class="property">
+                                Starring
+                            </div>
+                            <div class="value">
+                                <span v-for="actor in film.starring" class="actor">{{ actor }}</span>
+                            </div>
+                        </div>
+                        <div class="filminfo">
+                            <div class="property">
+                                IMDB
+                            </div>
+                            <div class="value long-url">
+                                <a :href="echoAtt(film.imdb)">{{ film.imdb }}</a>
+                            </div>
+                        </div>
+                        <div class="filminfo">
+                            <div class="property">
+                                Trailer
+                            </div>
+                            <div class="value long-url">
+                                <a :href="echoAtt(film.trailer)">{{ film.trailer }}</a>
+                            </div>
+                        </div>
+                        <div class="filminfo">
+                            <div class="property">
+                            </div>
+                            <div class="value">
+                                {{ film.precis.full }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span v-if="isFiltered">
+                <a href="./">Show All Films</a>  &#183;
+            </span>
+            Twitter <a href="https://twitter.com/emffilmfest">@emffilmfest</a> &#183; <a href="mailto:films@emfcamp.org">films@emfcamp.org</a>
+        </footer>
+        
+    </div>
+
+    <script>
+        const { createApp } = Vue
+
+        createApp({
+            data() {
+                return {
+                    isFiltered: false,
+                    films: [],
+                    echoAtt(att) {
+                        return att;
+                    }
+                }
+            },
+            methods: {
+                getFeed: function () {
+                    fetch('https://emffilms.org/api/2022/schedule')
+                        .then(response => response.json())
+                        .then(data => {
+                            const urlParams = new URLSearchParams(window.location.search);
+                            const filmFilter = urlParams.get('film');
+                            if (filmFilter !== null && filmFilter !== '') {
+                                this.$data.films = data.films.filter(film => film.slug == filmFilter)
+                                this.$data.isFiltered = true;
+                            } else {
+                                console.log(data.films); this.$data.films = data.films;
+                                this.$data.isFiltered = false;
+                            }
+                        });
+                }
+            },
+            beforeMount() {
+                this.getFeed()
+            },
+        }).mount('#app')
+    </script>
+</body>
+
 </html>

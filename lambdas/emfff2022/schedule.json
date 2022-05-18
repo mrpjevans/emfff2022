@@ -2,12 +2,13 @@
     "schemaVersion": 1,
     "films": [
         {
+            "slug": "quam",
             "title": "Quam",
             "director": "Nettle Writtle",
             "year": 1997,
             "certificate": "18",
-            "poster": "http://dummyimage.com/216x100.png/5fa2dd/ffffff",
-            "image": "http://dummyimage.com/248x100.png/5fa2dd/ffffff",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Aileen Mattusevich",
                 "Deane Borrie",
@@ -33,12 +34,13 @@
             }
         },
         {
+            "slug": "vitae",
             "title": "Vitae",
             "director": "Marsh Baughen",
             "year": 2005,
             "certificate": "15",
-            "poster": "http://dummyimage.com/103x100.png/cc0000/ffffff",
-            "image": "http://dummyimage.com/217x100.png/dddddd/000000",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Emily O'Hanlon",
                 "Madelina Crean",
@@ -64,12 +66,13 @@
             }
         },
         {
+            "slug": "elit",
             "title": "Elit",
             "director": "Jessie Mille",
             "year": 1999,
             "certificate": "12",
-            "poster": "http://dummyimage.com/104x100.png/cc0000/ffffff",
-            "image": "http://dummyimage.com/227x100.png/dddddd/000000",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Merrile Veevers",
                 "Goldarina Doodney",
@@ -95,12 +98,13 @@
             }
         },
         {
+            "slug": "dictumst",
             "title": "Dictumst",
             "director": "Brnaba Haken",
             "year": 2007,
             "certificate": "18",
-            "poster": "http://dummyimage.com/211x100.png/ff4444/ffffff",
-            "image": "http://dummyimage.com/118x100.png/dddddd/000000",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Butch Bacon",
                 "Pepillo Drepp",
@@ -127,11 +131,12 @@
         },
         {
             "title": "Nulla",
+            "slug": "nulla",
             "director": "Ceil Chatenet",
             "year": 2009,
             "certificate": "18",
-            "poster": "http://dummyimage.com/215x100.png/dddddd/000000",
-            "image": "http://dummyimage.com/160x100.png/5fa2dd/ffffff",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Kyrstin Larrosa",
                 "Berti Bromidge",
@@ -158,11 +163,12 @@
         },
         {
             "title": "Elementum",
+            "slug": "elementum",
             "director": "Yank Rubinchik",
             "year": 2002,
             "certificate": "12",
-            "poster": "http://dummyimage.com/132x100.png/cc0000/ffffff",
-            "image": "http://dummyimage.com/202x100.png/5fa2dd/ffffff",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Megan Guesford",
                 "Emelyne Osbiston",
@@ -189,11 +195,12 @@
         },
         {
             "title": "Quam 2",
+            "slug": "quam2",
             "director": "Chet Lyes",
             "year": 2009,
             "certificate": "18",
-            "poster": "http://dummyimage.com/207x100.png/cc0000/ffffff",
-            "image": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Raffarty Sollon",
                 "Rubia Worthington",
@@ -220,11 +227,12 @@
         },
         {
             "title": "Amet 4",
+            "slug": "amet4",
             "director": "Val Lockier",
             "year": 1992,
             "certificate": "12",
-            "poster": "http://dummyimage.com/172x100.png/cc0000/ffffff",
-            "image": "http://dummyimage.com/213x100.png/ff4444/ffffff",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Issie Forstall",
                 "Anne-corinne Eck",
@@ -251,11 +259,12 @@
         },
         {
             "title": "Nulla 2",
+            "slug": "nulla2",
             "director": "Abbye Gunthorpe",
             "year": 1989,
             "certificate": "15",
-            "poster": "http://dummyimage.com/239x100.png/5fa2dd/ffffff",
-            "image": "http://dummyimage.com/172x100.png/5fa2dd/ffffff",
+            "poster": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
+            "image": "https://dummyimage.com/620x864.png/5fa2dd/ffffff",
             "starring": [
                 "Janelle Grimbleby",
                 "Cara Doblin",

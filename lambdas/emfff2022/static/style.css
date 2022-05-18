@@ -1,0 +1,128 @@
+HTML, BODY {
+    background-color: #151735;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial
+}
+
+HEADER {
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title-film {
+    color: #30D9E6;
+}
+.strap {
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+H1, H2 {
+    font-family: 'Lato', Arial;
+    font-weight: 300;
+}
+
+H2 {
+    font-size: 4em;
+}
+
+.film, .filminfo, .time-and-cert {
+    display: flex;
+}
+
+.film {
+    border-top: 1px solid silver;
+    padding :20px
+}
+
+.film:last-child {
+    border-bottom: 1px solid silver;
+}
+
+.film IMG {
+    max-width: 30%;
+    padding-right: 20px;
+}
+
+.datetime {
+    font-size: 2em;
+    font-family: 'Lato', Arial;
+}
+
+.time-and-cert {
+    font-size: 0.8em;
+    color: #BAC2C9;
+}
+
+.filminfos {
+    padding-top: 20px;
+}
+
+.filminfo {
+    padding: 6px 0 6px 0;
+    flex-direction: column;
+}
+
+.filminfo .property {
+    min-width: 100px;
+    color: #FEA82F;
+    font-weight: bold;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.filminfo .value {
+    margin-bottom: 4px;
+}
+
+A {
+    color: #AEC5EA;
+    text-decoration: none;
+}
+
+.actor::after {
+    content: ", ";
+}
+
+.actor:last-child::after {
+    content: "";
+}
+
+FOOTER {
+    margin: 20px;
+}
+
+@media (max-width: 1024px) {
+    .film IMG {
+        min-width: 100%;
+    }
+    .film, .filminfo, HEADER {
+        flex-direction: column;
+    }
+    H1 {
+        font-size: 2em;
+        text-align: center;
+        width: 100%;
+    }
+    .strap {
+        font-size: 1em;
+    }
+    .long-url {
+        overflow: hidden;
+    }
+    .datetime {
+        font-size: 2em;
+        padding-top: 10px;
+    }
+    H2 {
+        font-size: 3em;
+    }
+    .time-and-cert {
+        font-size: 1em;
+    }
+}
