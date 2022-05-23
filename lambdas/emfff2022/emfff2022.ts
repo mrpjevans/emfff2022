@@ -17,6 +17,8 @@ exports.handler = async function (event) {
   switch (event.path) {
     case "/api/2022/schedule":
       return await jsonFeed(event);
+    case "/api/2022/prod":
+      return await jsonFeed(event, true);
     default:
       return await staticFile(event.path);
   }
@@ -85,7 +87,7 @@ async function staticFile(filepath) {
 
 }
 
-async function jsonFeed(event) {
+async function jsonFeed(event, useProd = false) {
   const now = new Date();
   const day = event.queryStringParameters?.day ?? now.getDay();
   const dayMap = [
@@ -95,9 +97,12 @@ async function jsonFeed(event) {
   const filter = event.queryStringParameters?.filter ?? "all";
   const ts = event.queryStringParameters?.time ?? now.getTime();
 
-  const raw = await (await fs.readFile(`./schedule.json`, "utf-8")).toString();
+  const sourceFile = useProd ? './schedule_prod.json' : './schedule.json';
+  const raw = await (await fs.readFile(sourceFile, "utf-8")).toString();
   const json = JSON.parse(raw);
   let filteredJson = json;
+  
+  filteredJson.films = json.films.filter(film => film.display);
 
   switch (filter) {
     case "today":

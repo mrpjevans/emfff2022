@@ -2,7 +2,6 @@
     "schemaVersion": 1,
     "films": [
         {
-            "display": false,
             "slug": "fyre",
             "title": "Fyre",
             "director": "Chris Smith",
@@ -15,9 +14,9 @@
                 "Ja Rule"
             ],
             "precis": {
-                "full": "Fyre is a documentary unveiling the story behind the catastrophe that was The Fyre Festival. In 2017 con-artist Billy McFarland and rapper Ja Rule aimed to stage the coolest party of a generation. An exclusive guest list of influencers and celebrities were invited to an island formally owned by drugs baron Pablo Escobar. As the date drew nearer, the nightmare began to unfold. Watch through your fingers as the whole enterprise collapses. Corruption, fraud and outright lies come together to give the guests a night they would never forget, for all the wrong reasons.",
+                "full": "Fyre is a documentary unveiling the story behind the catastrophe that was The Fyre Festival. In 2017 con artist Billy McFarland and rapper Ja Rule aimed to stage the coolest party of a generation. An exclusive guest list of influencers and celebrities were invited to an island formally owned by drugs baron Pablo Escobar. As the date drew nearer, the nightmare began to unfold. Watch through your fingers as the whole enterprise collapses. Corruption, fraud and outright lies come together to give the guests a night they would never forget, for all the wrong reasons.",
                 "oneLine": "Just be glad you're here and not there",
-                "special": "Showing only if venue is ready and safe"
+                "special": "Showing subject to health and saftey checks"
             },
             "tagline": "The Greatest Party That Never Happened",
             "showing": {
@@ -25,15 +24,14 @@
                 "text": "2nd June 20:00",
                 "day": "Thursday"
             },
-            "imdb": "https://www.imdb.com/title/tt9412098/",
-            "trailer": "https://www.youtube.com/watch?v=uZ0KNVU2fV0",
+            "imdb": "https://www.imdb.com/title/tt6849786/",
+            "trailer": "https://www.youtube.com/watch?v=uTdyb-RWNKo",
             "runTime": {
                 "minutes": 97,
                 "text": "1h 37"
             }
         },
         {
-            "display": false,
             "slug": "nofakes",
             "title": "There Are No Fakes",
             "director": "Jamie Kastner",
@@ -47,9 +45,9 @@
                 "Jim White"
             ],
             "precis": {
-                "full": "When Kevin Hearn (of Canadian indie legends Barenaked Ladies) bought a painting by the late indigenous artist Norval Morrisseau, he never guessed that it would start a chain reaction that would end up in places you would not believe. When loaned to an art gallery for a retrospective, the painting was exposed as being a forgery. But was it? When Hearne sued the gallery that sold him the Morrisseau, war broke out between artists and collectors. Following the money reveals a secret world of drugs, money laundering and human trafficking. You won't believe what happens when you 'Just wanted to buy a painting'.",
+                "full": "When Kevin Hearn (of Canadian indie legends Barenaked Ladies) bought a painting by the late indigenous artist  Norval Morrisseau, he never guessed that it would start a chain reaction that would end up in places you would not believe. When loaned to an art gallery for a retrospective, the painting was exposed as being a forgery. But was it? When Hearne sued the gallery that sold him the Morrisseau, war broke out between artists and collectors. Following the money reveals a secret world of drugs, money laundering and human trafficking. You won't believe what happens when you 'Just wanted to buy a painting'.",
                 "oneLine": "The tragic, brutal world of an art forgery ring in Canada's far north.",
-                "special": "Showing only if venue is ready and safe"
+                "special": "Showing subject to health and safety checks"
             },
             "tagline": "When buying a painting unravels a hidden world of WTF?",
             "showing": {
@@ -65,7 +63,6 @@
             }
         },
         {
-            "display": true,
             "slug": "generalmagic",
             "title": "General Magic",
             "director": "Sarah Kerruish, Matt Maude",
@@ -81,7 +78,7 @@
                 "Megan Smith"
             ],
             "precis": {
-                "full": "How do you think that smartphone got in your pocket? Who had the vision and determination to create the future? Many would think Apple, but it was actually an Apple offshoot, General Magic, that laid the foundations for the always-on world we live in today. This engaging documentary tells the story of a gang of dedicated geeks who set out to create the future and their fate at the hands of Apple and others. You'll see some familiar faces and a glimpse into how our future was shaped.",
+                "full": "How do you think that smartphone got in your pocket? If you follow the history, who had the vision and determination to create the future? Many would think Apple, but it was actually an Apple offshoot, General Magic that laid the foundations for the always-on world we live in today. This documentary tells the story of a gang of dedicated geeks who set out to create the future and their fate at the hands of Apple and others. You’ll see some familiar faces and a glimpse into how the future was shaped.",
                 "oneLine": "The greatest tech company you've probably never heard of",
                 "special": "Directors Sarah Kerruish & Matt Maude will join us online to introduce the film and answer your questions after the screening."
             },
@@ -99,7 +96,6 @@
             }
         },
         {
-            "display": true,
             "slug": "hackers",
             "title": "Hackers",
             "director": "Iain Softley",
@@ -140,7 +136,6 @@
             }
         },
         {
-            "display": true,
             "slug": "interstellar",
             "title": "Interstellar",
             "director": "Christopher Nolan",
@@ -168,14 +163,13 @@
                 "day": "Saturday"
             },
             "imdb": "https://www.imdb.com/title/tt0816692/",
-            "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+            "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E&t=3s",
             "runTime": {
                 "minutes": 159,
                 "text": "2h 49"
             }
         },
         {
-            "display": true,
             "slug": "barkley",
             "title": "The Barkley Marathons",
             "director": "Annika Iltis, Timothy James Kane",
@@ -187,7 +181,7 @@
                 "Lazarus Lake"
             ],
             "precis": {
-                "full": "One of those films that slacks your jaw in the first five minutes and then it just gets worse. The Barkley Marathons is a documentary on the now-famous ultramarathon that takes place every year in Tennessee. Participants aim to complete five laps of a twenty-mile course through the woods that has no proper trail, using maps and compass. Some think the course is actually much longer. Even entering the event is a challenge with requirements being a closely guarded secret. Every year, 40 runners attempt to complete the course and usually none succeed. A fascinating look into what drives people, sometimes to the edge of sanity.",
+                "full": "One of those films that slacks your jaw in the first five minutes and then it just gets worse. The Barkley Marathons is a documentary on the now-famous ultramarathon that takes place every year in Tennessee. Participants aim to complete five laps of a twenty-mile course through the woods that has no proper trail, using maps and compass. Some think the course is actually much longer. Even entering the event is a challenges with requirements being a closely guarded secret. Every year, 40 runners attempt to complete the course and usually, none succeed. A fascinating look into what drives people, sometimes to the edge of sanity.",
                 "oneLine": "Documentary that follows those undertaking a 100 mile ultramarathon in the craziest circumstances"
             },
             "tagline": "The race that eats it's young",
@@ -204,10 +198,9 @@
             }
         },
         {
-            "display": true,
             "slug": "speedcubers",
             "title": "The Speed Cubers",
-            "director": "Sue Kim",
+            "director": "Sue kim",
             "year": 2020,
             "certificate": "PG",
             "poster": "https://www.imdb.com/title/tt12038300/mediaviewer/rm1722068481/",
@@ -235,7 +228,6 @@
             }
         },
         {
-            "display": true,
             "slug": "sneakers",
             "title": "Sneakers",
             "director": "Phil Alden Robinson",
@@ -253,7 +245,7 @@
                 "Sidney Poitier"
             ],
             "precis": {
-                "full": "Our second geek classic of Electromagnetic Field. A hacker heads a group of specialists who test the security of various San Francisco companies. National Security Agency officers ask them to steal a newly invented decoder. The team discover that the black box can crack any encryption code, posing a huge threat if it lands in the wrong hands. When they realises the NSA men who approached him are rogue agents, they are framed for the murder of the device's inventor. A classic and celebrating its 30th anniversary.",
+                "full": "Our second geek classic of Electromagnetic Field. A hacker heads a group of specialists who test the security of various San Francisco companies. National Security Agency officers ask them to steal a newly invented decoder. The team discover that the black box can crack any encryption code, posing a huge threat if it lands in the wrong hands. When they realises the NSA men who approached him are rogue agents, they are framed for the murder of the device's inventor. A classic and thirty years old this year.",
                 "oneLine": "A security pro finds his past coming back to haunt him, when he and his unique team are tasked with retrieving a particularly important item."
             },
             "tagline": "Too many secrets",
@@ -263,7 +255,7 @@
                 "day": "Sunday"
             },
             "imdb": "https://www.imdb.com/title/tt0105435/",
-            "trailer": "https://www.youtube.com/watch?v=8X_yiqK_sUs",
+            "trailer": "https://www.youtube.com/watch?v=8X_yiqK_sUs&t=32s",
             "runTime": {
                 "minutes": 126,
                 "text": "2h 06"

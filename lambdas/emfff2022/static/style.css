@@ -30,6 +30,10 @@ H2 {
     font-size: 4em;
 }
 
+#spinner {
+    text-align: center;
+}
+
 .film, .filminfo, .time-and-cert {
     display: flex;
 }
@@ -78,6 +82,7 @@ H2 {
 
 .filminfo .value {
     margin-bottom: 4px;
+    line-height: 1.5em;
 }
 
 A {

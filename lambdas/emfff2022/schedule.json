@@ -2,6 +2,7 @@
     "schemaVersion": 1,
     "films": [
         {
+            "display": true,
             "slug": "quam",
             "title": "Quam",
             "director": "Nettle Writtle",
@@ -28,12 +29,13 @@
             },
             "imdb": "https://weather.com/rhoncus/aliquam/lacus/morbi/quis.aspx",
             "trailer": "http://scribd.com/mattis/pulvinar/nulla/pede/ullamcorper/augue/a.xml",
-            "runtime": {
+            "runTime": {
                 "minutes": 102,
                 "text": "1h 23"
             }
         },
         {
+            "display": true,
             "slug": "vitae",
             "title": "Vitae",
             "director": "Marsh Baughen",
@@ -60,12 +62,13 @@
             },
             "imdb": "http://istockphoto.com/dui/proin.jpg",
             "trailer": "http://exblog.jp/feugiat/non.html",
-            "runtime": {
+            "runTime": {
                 "minutes": 122,
                 "text": "1h 19"
             }
         },
         {
+            "display": true,
             "slug": "elit",
             "title": "Elit",
             "director": "Jessie Mille",
@@ -92,12 +95,13 @@
             },
             "imdb": "https://webeden.co.uk/libero/nam/dui.json",
             "trailer": "http://joomla.org/integer/non/velit/donec/diam.html",
-            "runtime": {
+            "runTime": {
                 "minutes": 112,
                 "text": "2h 34"
             }
         },
         {
+            "display": true,
             "slug": "dictumst",
             "title": "Dictumst",
             "director": "Brnaba Haken",
@@ -124,12 +128,13 @@
             },
             "imdb": "https://wsj.com/orci/pede.json",
             "trailer": "https://cpanel.net/nec.jpg",
-            "runtime": {
+            "runTime": {
                 "minutes": 157,
                 "text": "5h 18"
             }
         },
         {
+            "display": true,
             "title": "Nulla",
             "slug": "nulla",
             "director": "Ceil Chatenet",
@@ -156,12 +161,13 @@
             },
             "imdb": "https://zdnet.com/est/et/tempus/semper/est/quam/pharetra.aspx",
             "trailer": "https://usa.gov/cubilia/curae/donec.jpg",
-            "runtime": {
+            "runTime": {
                 "minutes": 153,
                 "text": "1h 07"
             }
         },
         {
+            "display": true,
             "title": "Elementum",
             "slug": "elementum",
             "director": "Yank Rubinchik",
@@ -188,12 +194,13 @@
             },
             "imdb": "https://seesaa.net/nulla/tempus/vivamus/in.html",
             "trailer": "http://howstuffworks.com/lacus/morbi/quis/tortor/id/nulla/ultrices.jpg",
-            "runtime": {
+            "runTime": {
                 "minutes": 165,
                 "text": "1h 23"
             }
         },
         {
+            "display": true,
             "title": "Quam 2",
             "slug": "quam2",
             "director": "Chet Lyes",
@@ -220,12 +227,13 @@
             },
             "imdb": "https://wufoo.com/in/magna/bibendum.json",
             "trailer": "http://clickbank.net/amet/consectetuer/adipiscing/elit/proin/risus.json",
-            "runtime": {
+            "runTime": {
                 "minutes": 69,
                 "text": "8h 23"
             }
         },
         {
+            "display": true,
             "title": "Amet 4",
             "slug": "amet4",
             "director": "Val Lockier",
@@ -252,12 +260,13 @@
             },
             "imdb": "http://statcounter.com/lacus.xml",
             "trailer": "http://scribd.com/a/libero/nam/dui/proin/leo/odio.xml",
-            "runtime": {
+            "runTime": {
                 "minutes": 79,
                 "text": "1h 59"
             }
         },
         {
+            "display": true,
             "title": "Nulla 2",
             "slug": "nulla2",
             "director": "Abbye Gunthorpe",
@@ -284,7 +293,7 @@
             },
             "imdb": "https://technorati.com/turpis/elementum/ligula.jpg",
             "trailer": "https://tinypic.com/primis/in/faucibus/orci/luctus/et/ultrices.jsp",
-            "runtime": {
+            "runTime": {
                 "minutes": 133,
                 "text": "2h 58"
             }

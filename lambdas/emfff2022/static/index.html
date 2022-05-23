@@ -1,34 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Electromagnetic FILM 2022</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Film programme for Eletromagentic File 2022">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet" rel="preload" as="style">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
 </head>
 
 <body>
-    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 
     <div id="app">
         <header>
             <h1><a href="./">Electromagnetic <span class="title-film">FILM</span> 2022</a></h1>
             <p class="strap">Movies and special events every night at Electromagnetic Field</p>
         </header>
+        <div id="spinner">
+            <p>Loading...</p>
+        </div>
         <div id="films">
             <div class="film" v-for="film in films">
-                <img :src="echoAtt(film.image)" />
+                <img :src="echoAtt(film.image)" :alt="echoPoster(film.title)" width="500" />
                 <div class="panel">
                     <div class="datetime">{{ film.showing.day }} {{ film.showing.text }}</div>
                     <h2>{{ film.title }}</h2>
                     <div class="time-and-cert">
-                        {{ film.year }} - {{ film.runtime.text }}m - Certificate {{ film.certificate }}
+                        {{ film.year }} - {{ film.runTime.text }} -  {{ film.certificate }}
                     </div>
                     <div class="filminfos">
+                        <div class="filminfo" v-if="film.precis.special">
+                            <div class="property">
+                            </div>
+                            <div class="value">
+                                <strong>{{ film.precis.special }}</strong>
+                            </div>
+                        </div>
                         <div class="filminfo">
                             <div class="property">
                                 Director
@@ -74,11 +86,12 @@
         </div>
         <footer>
             <span v-if="isFiltered">
-                <a href="./">Show All Films</a>  &#183;
+                <a href="./">Show All Films</a> &#183;
             </span>
-            Twitter <a href="https://twitter.com/emffilmfest">@emffilmfest</a> &#183; <a href="mailto:films@emfcamp.org">films@emfcamp.org</a>
+            Twitter <a href="https://twitter.com/emffilmfest">@emffilmfest</a> &#183; <a
+                href="mailto:films@emfcamp.org">films@emfcamp.org</a>
         </footer>
-        
+
     </div>
 
     <script>
@@ -91,6 +104,9 @@
                     films: [],
                     echoAtt(att) {
                         return att;
+                    },
+                    echoPoster(title) {
+                        return `Poster for ${title}`;
                     }
                 }
             },
@@ -105,9 +121,11 @@
                                 this.$data.films = data.films.filter(film => film.slug == filmFilter)
                                 this.$data.isFiltered = true;
                             } else {
-                                console.log(data.films); this.$data.films = data.films;
+                                this.$data.films = data.films;
                                 this.$data.isFiltered = false;
                             }
+                            document.getElementById('spinner').style.display = "none";
+                            document.getElementById('films').style.display = "block";
                         });
                 }
             },
