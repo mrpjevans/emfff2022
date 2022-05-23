@@ -2,9 +2,42 @@
     "schemaVersion": 1,
     "films": [
         {
+            "slug": "generalmagic",
+            "title": "General Magic",
+            "director": "Sarah Kerruish, Matt Maude",
+            "year": 2018,
+            "certificate": "12A",
+            "poster": "https://www.imdb.com/title/tt6849786/mediaviewer/rm1243127297/",
+            "image": "images/generalmagic.jpg",
+            "starring": [
+                "Tony Fadell",
+                "Andy Hertzfeld",
+                "Marc Porat",
+                "John Sculley",
+                "Megan Smith"
+            ],
+            "precis": {
+                "full": "How do you think that smartphone got in your pocket? If you follow the history, who had the vision and determination to create the future? Many would think Apple, but it was actually an Apple offshoot, General Magic that laid the foundations for the always-on world we live in today. This documentary tells the story of a gang of dedicated geeks who set out to create the future and their fate at the hands of Apple and others. You’ll see some familiar faces and a glimpse into how the future was shaped. Special Event: Directors Sarah Kerruish & Matt Maude will join us online to introduce the film and answer your questions after the screening.",
+                "oneLine": "The greatest tech company you've probably never heard of"
+            },
+            "tagline": "Inside every pocket there's a little piece of Magic",
+            "showing": {
+                "timestamp": "2022-06-03T19:30:00+01:00",
+                "text": "3rd June 19:30",
+                "day": "Friday"
+            },
+            "imdb": "https://www.imdb.com/title/tt6849786/",
+            "trailer": "https://www.youtube.com/watch?v=uTdyb-RWNKo",
+            "runTime": {
+                "minutes": 93,
+                "text": "1h 33"
+            }
+        },
+        {
+            "slug": "hackers",
             "title": "Hackers",
             "director": "Iain Softley",
-            "year": "1995",
+            "year": 1995,
             "certificate": "12",
             "poster": "https://www.imdb.com/title/tt0113243/mediaviewer/rm3977202176/",
             "image": "images/hackers.jpg",
@@ -23,20 +56,145 @@
                 "Fisher Stevens"
             ],
             "precis": {
-                "full": "A young boy is arrested by the U.S. Secret Service for writing a computer virus and is banned from using a computer until his 18th birthday. Years later, he and his new-found friends discover a plot to unleash a dangerous computer virus, but they must use their computer skills to find the evidence while being pursued by the Secret Service and the evil computer genius behind the virus.",
-                "oneLine": "Hackers are blamed for making a virus that will capsize five oil tankers."
+                "full": "Do we even need to write this blurb? Geek classic Hackers returns after four years. Legendary hacker Zero Cool and his friends have been framed by The Plague, who has unleashed a computer virus that could cause an environmental disaster. Pursued by the Secret Service, the gang try to gather the evidence to take The Plague down and stop the virus from unleashing havoc. A bumper-fest of hacking, car chases and double-crossing that has become lore in geek culture. Endlessly quotable and a highlight of EMF 2018. Special Event: Director Iain Softley returns to Electromagnetic Field to answer your questions in a Q&A before the film.",
+                "oneLine": "In this geek classic hackers are blamed for making a virus that will capsize five oil tankers."
             },
             "tagline": "HACK THE PLANET!",
             "showing": {
-                "timestamp": "2022-06-02T22:50:00+01:00",
-                "text": "4th June 23:50",
-                "day": "Saturday"
+                "timestamp": "2022-06-03T23:00:00+01:00",
+                "text": "3rd June 23:00",
+                "day": "Friday"
             },
             "imdb": "https://www.imdb.com/title/tt0113243/",
             "trailer": "https://www.youtube.com/watch?v=Rn2cf_wJ4f4",
             "runTime": {
                 "minutes": 101,
                 "text": "1h 41"
+            }
+        },
+        {
+            "slug": "interstellar",
+            "title": "Interstellar",
+            "director": "Christopher Nolan",
+            "year": 2014,
+            "certificate": "12",
+            "poster": "https://www.imdb.com/title/tt0816692/mediaviewer/rm4043724800/",
+            "image": "images/interstellar.jpg",
+            "starring": [
+                "Matthew McConaughey",
+                "Anne Hathaway",
+                "Jessica Chastain",
+                "Mackenzie Foy",
+                "John Lithgow",
+                "Michael Caine"
+            ],
+            "precis": {
+                "full": "Christopher Nolan's classic comes to Electromagnetic Field. A dying Earth is being slowly choked by dust storms and food is running out. An engineer turned farmer tries to support his family but struggles to see a future for his son, daughter and father. A chance encounter reveals a new path that returns him to his former life and takes him across galaxies in search a new world for humankind. Amazing special effects and a rich story are underpinned by a magnificent soundtrack by Hans Zimmer.  An epic in the true sense of the word that must be seen on a big screen. Special Event: Visual special effect artist Eugénie von Tunzelmann answers your questions about her work on Interstellar before the screening.",
+                "oneLine": "An epic adventure through time and space as humankind tries to find a new home."
+            },
+            "tagline": "Mankind was born on Earth. It was never meant to die here.",
+            "showing": {
+                "timestamp": "2022-06-04T19:30:00+01:00",
+                "text": "4th June 19:30",
+                "day": "Saturday"
+            },
+            "imdb": "https://www.imdb.com/title/tt0816692/",
+            "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E&t=3s",
+            "runTime": {
+                "minutes": 159,
+                "text": "2h 49"
+            }
+        },
+        {
+            "slug": "barkley",
+            "title": "The Barkley Marathons",
+            "director": "Annika Iltis, Timothy James Kane",
+            "year": 2014,
+            "certificate": "Unrated",
+            "poster": "https://www.imdb.com/title/tt2400291/mediaviewer/rm2622680832/",
+            "image": "images/barkley.jpg",
+            "starring": [
+                "Lazarus Lake"
+            ],
+            "precis": {
+                "full": "One of those films that slacks your jaw in the first five minutes and then it just gets worse. The Barkley Marathons is a documentary on the now-famous ultramarathon that takes place every year in Tennessee. Participants aim to complete five laps of a twenty-mile course through the woods that has no proper trail, using maps and compass. Some think the course is actually much longer. Even entering the event is a challenges with requirements being a closely guarded secret. Every year, 40 runners attempt to complete the course and usually, none succeed. A fascinating look into what drives people, sometimes to the edge of sanity.",
+                "oneLine": "Documentary that follows those undertaking a 100 mile ultramarathon in the craziest circumstances"
+            },
+            "tagline": "The race that eats it's young",
+            "showing": {
+                "timestamp": "2022-06-04T23:30:00+01:00",
+                "text": "4th June 23:30",
+                "day": "Saturday"
+            },
+            "imdb": "https://www.imdb.com/title/tt2400291/",
+            "trailer": "https://www.youtube.com/watch?v=79IUKC9gS-8",
+            "runTime": {
+                "minutes": 89,
+                "text": "1h 29"
+            }
+        },
+        {
+            "slug": "speedcubers",
+            "title": "The Speed Cubers",
+            "director": "Sue kim",
+            "year": 2020,
+            "certificate": "PG",
+            "poster": "https://www.imdb.com/title/tt12038300/mediaviewer/rm1722068481/",
+            "image": "images/speedcubers.jpg",
+            "starring": [
+                "Max Park",
+                "Schwan Park",
+                "Phillipp Weyer"
+            ],
+            "precis": {
+                "full": "How long did it take you to solve your first Rubik’s Cube? Did you ever? A speed cuber can do it in about eight seconds. This heartwarming documentary follows two of the greatest ‘cubers’ in history during the build up to the world championships. One king of the cube versus the upstart newcomer. What we find is not a typical cut-throat competition but friendship, kindness and a champion who embraces their autism as a superpower. This is a short but life-affirming journey with some amazing cube-solving skills.",
+                "oneLine": "Discover the special bond - and uncommon competitive spirit - shared by the world's Rubik's Cube-solving record breakers in this documentary."
+            },
+            "tagline": "Competition with compassion",
+            "showing": {
+                "timestamp": "2022-06-05T19:30:00+01:00",
+                "text": "5th June 19:30",
+                "day": "Sunday"
+            },
+            "imdb": "https://www.imdb.com/title/tt12038300/",
+            "trailer": "https://www.youtube.com/watch?v=-wrTIWx_Z6k&t=12s",
+            "runTime": {
+                "minutes": 39,
+                "text": "39 minutes"
+            }
+        },
+        {
+            "slug": "sneakers",
+            "title": "Sneakers",
+            "director": "Phil Alden Robinson",
+            "year": 1992,
+            "certificate": "12",
+            "poster": "https://www.imdb.com/title/tt0105435/mediaviewer/rm2873526529/",
+            "image": "images/sneakers.jpg",
+            "starring": [
+                "Dan Aykroyd",
+                "Ben Kingsley",
+                "River Phoenix",
+                "Robert Redford",
+                "David Strathairn",
+                "Mary McDonnell",
+                "Sidney Poitier"
+            ],
+            "precis": {
+                "full": "Our second geek classic of Electromagnetic Field. A hacker heads a group of specialists who test the security of various San Francisco companies. National Security Agency officers ask them to steal a newly invented decoder. The team discover that the black box can crack any encryption code, posing a huge threat if it lands in the wrong hands. When they realises the NSA men who approached him are rogue agents, they are framed for the murder of the device's inventor. A classic and thirty years old this year.",
+                "oneLine": "A security pro finds his past coming back to haunt him, when he and his unique team are tasked with retrieving a particularly important item."
+            },
+            "tagline": "Too many secrets",
+            "showing": {
+                "timestamp": "2022-06-05T20:45:00+01:00",
+                "text": "5th June 20:45",
+                "day": "Sunday"
+            },
+            "imdb": "https://www.imdb.com/title/tt0105435/",
+            "trailer": "https://www.youtube.com/watch?v=8X_yiqK_sUs&t=32s",
+            "runTime": {
+                "minutes": 126,
+                "text": "2h 06"
             }
         }
     ]
