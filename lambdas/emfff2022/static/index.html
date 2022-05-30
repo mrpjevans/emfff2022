@@ -38,7 +38,7 @@
                             <div class="property">
                             </div>
                             <div class="value">
-                                <strong>{{ film.precis.special }}</strong>
+                                <strong>{{ film.precis.special }} <span v-if="film.precis.qa"><a :href="echoAtt(film.precis.qa)">Submit your question</a></span></strong>
                             </div>
                         </div>
                         <div class="filminfo">
